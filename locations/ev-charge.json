@@ -1,0 +1,7 @@
+{
+    "PricePerKWh" : 13.97, //Type Decimal
+    "VehicleCompatible" : [ "Tesla", "Nissan Leaf", "etc" ], // Type List of Strings
+    "ChargeBusinessType" : "business|residential",
+    "ChargerType" : "fast|slow|notsure what we should have in here?", //The charging type
+    "NumberPoints" : 2, //Type INT Number of points on site. Usually one I guess for residential
+}

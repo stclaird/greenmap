@@ -1,0 +1,14 @@
+{
+    "uuid" : "1234-5678-", // Type uuid Descr the unique identifier in our database
+    "LocationType" : "shop|charge|restaurant|cafe|ebike", //Type String
+    "LocationName" : "Optional Name e.g Parkhead Forge Extra", //Type String
+    "AddressFirstLine": "Tescos Extra, 33 Beardmore Way", //Type String
+    "AddressCountryCodeISO" : "GB", //Type String
+    "AddressCounty" : "Lanarkshire", //Type String
+    "AddressTown" : "Gorbals", //Type String
+    "AddressPostCode" : "G31 4BG", //Type String
+    "Location" : {
+        "type": "Point",
+        "coordinates" : [ 55.8559922, -4.2121069 ]
+    }
+}
