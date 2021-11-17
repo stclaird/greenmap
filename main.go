@@ -10,7 +10,7 @@ func main() {
 	r := gin.Default()
 	v1 := r.Group("/api")
 
-	location.ArticlesRegister(v1.Group("/location"))
+	location.LocationsRegister(v1.Group("/location"))
 
-	r.run()
+	r.Run()
 }
