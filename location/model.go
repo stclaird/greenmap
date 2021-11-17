@@ -30,7 +30,7 @@ type LocationPoint struct {
 	Coordinates []float64 `bson:"coordinates"`
 }
 
-func GetAllLocations() ([]Location, error) {
+func GetLocations() ([]Location, error) {
 	//Define filter query for fetching specific document from collection
 	filter := bson.D{{}} //bson.D{{}} specifies 'all documents'
 	locations := []Location{}
