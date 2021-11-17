@@ -41,7 +41,7 @@ func GetAllLocations() ([]Location, error) {
 		return locations, err
 	}
 	//Create a handle to the respective collection in the database.
-	collection := client.Database(connectionhelper.DB).Collection(connectionhelper.ISSUES)
+	collection := client.Database(connectionhelper.DB).Collection(connectionhelper.LOCATIONS)
 	//Perform Find operation & validate against the error.
 	cur, findError := collection.Find(context.TODO(), filter)
 	if findError != nil {
